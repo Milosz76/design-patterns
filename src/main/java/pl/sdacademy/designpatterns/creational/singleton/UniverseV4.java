@@ -8,7 +8,7 @@ public class UniverseV4 {
     private double avgTemperature;
 
     public static UniverseV4 getInstance() { //metoda jest zsynchonizowana bo jeden wątek na raz wywołuje tę motodę
-        //^^^ jeden problem jesli metoda jest sync to spr czy klucz jest i wykonuje ponowne sprawdzenia i jest to zasobozerny
+        //^^^ jeden problem jesli metoda jest sync to spr czy klucz jest i wykonuje ponowne sprawdzenia i jest to zasobozerny proces
         //zostawiamy bez sync
 
         if(instance == null){

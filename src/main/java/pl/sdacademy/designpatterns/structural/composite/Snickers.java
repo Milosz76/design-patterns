@@ -4,6 +4,6 @@ public class Snickers implements Product {
 
     @Override
     public double getPrice() {
-        return 3;
+        return 3d;
     }
 }

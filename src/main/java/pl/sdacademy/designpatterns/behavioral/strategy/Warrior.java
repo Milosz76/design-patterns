@@ -20,11 +20,11 @@ public class Warrior {
         this.hitStrategy = hitStrategy;
     }
 
-    //metoda dodatkowa ataku
+    //metoda dodatkowa, metoda ataku kiedy wojownik ma uderzać
     public void hit(){
         //System.out.println("Wojownik udarza!");
         //wywołujemy implementacje jakie ustawiliśmy
-
+        // wykorzysta do tego przypisaną jemu strategię uderzania.
         hitStrategy.hit();
     }
 }

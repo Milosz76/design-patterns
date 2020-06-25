@@ -5,7 +5,7 @@ public class UniverseV2 {
         private double mass;
         private double avgTemperature;
 
-        private UniverseV2(){} //konstruktor prywatny
+        private UniverseV2(){} //konstruktor prywatny i bezparametrowy
 
 //    //tylko get dzięki temu jest Singleton bez set
 //        //------------------------------------------

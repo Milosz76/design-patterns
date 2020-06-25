@@ -1,7 +1,7 @@
 package pl.sdacademy.designpatterns.creational.singleton;
 
 public class UniverseV3 {
-    private static UniverseV3 instance; //tworzę stałą ?
+    private static UniverseV3 instance; //tworzę stałą globalną jako jedno wystąpienie obiektu
     private double mass;
     private double avgTemperature;
 

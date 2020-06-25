@@ -4,6 +4,6 @@ public class CocaColaCan implements Product{
 
     @Override
     public double getPrice() {
-        return 2; //odp na cene puszki coli
+        return 2d; //odp na cene puszki coli
     }
 }
